@@ -38,3 +38,31 @@ out/
 
 # Mac
 .DS_Store
+
+# Maven build artifacts
+target/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper files
+**/mvnw
+**/mvnw.cmd
+**/.mvn
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA settings
+.idea
+
+# Optional suggestions
+*.iml
+*.log
+*.class
+
+
